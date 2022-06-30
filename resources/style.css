@@ -267,3 +267,16 @@ h2 {
     background-color: hsl(207, 44%, 59%);
     border: 3px dashed midnightblue;
 }
+
+/* Footer */
+footer {
+    text-align: center;
+    margin: 10px;
+}
+
+footer h4 {
+    font-family: 'Roboto Mono';
+}
+
+.footer {
+    font-size: 25px;}
