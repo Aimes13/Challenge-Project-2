@@ -145,6 +145,7 @@ body {
     width: 100px auto;
     margin: 50px;
     background-color: antiquewhite;
+    overflow: scroll;
 }
 
 h2 {
@@ -251,6 +252,7 @@ h2 {
 /* Text Style Section */
 .text {
     font-family: 'Gentium Plus';
+    overflow: scroll;
 }
 
  .textH2 {
