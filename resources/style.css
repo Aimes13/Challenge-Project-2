@@ -133,6 +133,12 @@ body {
   .breadcrumb li:last-child a { background: hsla(248,39%,79%,1);}
   .breadcrumb li:last-child a:after { border-left-color: hsla(248,39%,79%,1)}
 
+   .breadcrumb a:hover {
+    font-size: 50px;
+    color: red;
+    transition: font-size 0.5s ease-in-out;
+  }
+
 /* Category Sections */
 #section1, #section2, #section3 {
     border: 3px solid darkslateblue;
