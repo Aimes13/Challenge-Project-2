@@ -78,7 +78,6 @@ body {
     overflow: hidden;
     font-size: 30px;
     font-family: 'Shadows Into Light';
-    box-sizing: border-box;
 }
 
 .breadcrumb li {
@@ -215,7 +214,6 @@ h2 {
     background-color: lavender;
     border-style: dotted;
     border-width: 2px;
-    box-sizing: border-box;
 }
 
 .fonts h3 {
@@ -269,7 +267,6 @@ h2 {
     padding: 30px 20px;
     background-color: hsl(207, 44%, 59%);
     border: 3px dashed midnightblue;
-    box-sizing: border-box;
 }
 
 /* Footer */
@@ -283,4 +280,5 @@ footer h4 {
 }
 
 .footer {
-    font-size: 25px;}
+    font-size: 25px;
+}
