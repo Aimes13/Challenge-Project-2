@@ -60,6 +60,7 @@ header {
 /* Body */
 body {
     background-color: white;
+    box-sizing: border-box;
 }
 /* Quote */
 .quote {
@@ -77,6 +78,7 @@ body {
     overflow: hidden;
     font-size: 30px;
     font-family: 'Shadows Into Light';
+    box-sizing: border-box;
 }
 
 .breadcrumb li {
@@ -145,6 +147,7 @@ body {
     width: 100px auto;
     margin: 50px;
     background-color: antiquewhite;
+    box-sizing: border-box;
     }
 
 h2 {
@@ -163,6 +166,7 @@ h2 {
     font-family: 'Architects Daughter';
     letter-spacing: 2px;
     border: 2px ridge black;
+    box-sizing: border-box;
 }
 
 .darkslate {
@@ -212,7 +216,7 @@ h2 {
     background-color: lavender;
     border-style: dotted;
     border-width: 2px;
-    
+    box-sizing: border-box;
 }
 
 .fonts h3 {
@@ -266,6 +270,7 @@ h2 {
     padding: 30px 20px;
     background-color: hsl(207, 44%, 59%);
     border: 3px dashed midnightblue;
+    box-sizing: border-box;
 }
 
 /* Footer */
