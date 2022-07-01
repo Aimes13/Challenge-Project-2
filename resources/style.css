@@ -166,7 +166,6 @@ h2 {
     font-family: 'Architects Daughter';
     letter-spacing: 2px;
     border: 2px ridge black;
-    box-sizing: border-box;
 }
 
 .darkslate {
