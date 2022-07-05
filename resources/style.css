@@ -53,16 +53,21 @@ body {
 }
 
 /* Banner Section */
-header {
+.header {
     font-family: Merriweather;
     font-size: 40px;
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrJGY23QV6-Z_vsBN4EkbObCtKSXZ3ChP0yg&usqp=CAU);
     text-align: center;
     max-height: 180px;
     padding: 2px;
-    margin: 2px;
+    margin: 2px 2px 20px;
     box-sizing: border-box;
+    position: fixed;
     word-spacing: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
 /* Quote */
