@@ -9,6 +9,41 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Gentium+Plus:ital,wght@0,400;0,700;1,400&family=Merriweather:ital,wght@0,300;0,700;1,300&family=Roboto+Mono:ital,wght@0,400;0,700;1,400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
+
+<!-- Responsive Design -->
+<style>
+    body {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header, .quote, nav, .section1, .section2, .section3  
+    {
+        flex-basis: 100%;
+        height: 100px;
+        margin-bottom: 8px;
+    }
+
+    @media (min-width: 600px) {
+        body { 
+            flex-direction: column;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            max-height: 2800px;    
+        }
+        header {flex-basis: 100%;}
+        .section1, .section2, .section3 
+        {
+            flex-basis: 80%; margin-bottom: 10px;
+        }
+        .quote, nav 
+        { flex-basis: 50%; margin-bottom: 10px;}
+    }
+
+    img { max-width: 100%;}
+</style>
+
 <body>
     <!-- Banner Section -->
     <header>
@@ -122,6 +157,6 @@
 </body>
 
 <footer>
-    
+    <h4>Copyright <span class="footer">&copy</span> Anne-Marie Makombe</h4>
 </footer>
 </html>
