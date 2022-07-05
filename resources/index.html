@@ -12,25 +12,34 @@
 
 <!-- Responsive Design -->
 <style>
-    body {
+    @media (max-width: 600px) {
+        body {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        max-height: 1000px;
     }
 
-    header, .quote, nav, .section1, .section2, .section3  
-    {
+        header { 
+            flex-basis: 100%;
+            height: 200px;    
+        }
+
+        .quote, nav, .section1, .section2, .section3  
+        {
         flex-basis: 100%;
         height: 100px;
         margin-bottom: 8px;
+        }
     }
+    
 
     @media (min-width: 600px) {
         body { 
             flex-direction: column;
             justify-content: flex-start;
             flex-wrap: nowrap;
-            max-height: 2800px;    
+            max-height: 1500px;    
         }
         header {flex-basis: 100%;}
         .section1, .section2, .section3 
